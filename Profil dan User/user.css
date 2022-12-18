@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+li {
+  margin-top: 30px;
+  text-align: 55px;
+  font-size: 30px;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.container{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 100px;
+  left: 370px;
+  border: 30px solid rgb(70, 255, 230);
+  border-radius: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  top: 0px;
+  left: 0px;
+  font-size: 35px;
+  font: poppins;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+
+  color: rgb(71, 52, 52);
+  height: 50px;
+  padding-top: 0.9px;
+}
+
+.form label{
+  display: block;
+  margin: 1rem 0 0.5rem 0;
+  color: #201a1a;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.User {
+  width: 80px;
+  padding: 10px 10px;
+  background-color:  rgb(47, 223, 223);
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  float: right;
+}
+
+
+
+.gambar img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 3px white;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.submit a{
+  background-color: rgb(173, 230, 195);
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 20px 20px;
+  width: 120px;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 140px;
+}

@@ -16,12 +16,7 @@ $nama = ["Ahmad", "Budi", "Chika", "Dhini","Erwin"];
     foreach ($nama as $absen) {
       echo "<li>$absen</li>";
     }  
-
-
-
-
-
-
+    
     ?> 
 </body>
 </html>
